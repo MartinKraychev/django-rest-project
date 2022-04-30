@@ -11,6 +11,8 @@ class Furniture(models.Model):
         max_length=20
     )
 
+    image = models.URLField()
+
     description = models.TextField()
 
     category = models.ForeignKey(
@@ -22,3 +24,6 @@ class Furniture(models.Model):
         UserModel,
         on_delete=models.CASCADE
     )
+
+    def __str__(self):
+        return f'{self.name}'
