@@ -50,6 +50,7 @@ THIRD_PARTY_APPS = (
 PROJECT_APPS = (
     'rest_project.furniture',
     'rest_project.api_auth',
+    'rest_project.category',
 )
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + PROJECT_APPS

@@ -22,7 +22,8 @@ class CreateUserSerializer(ModelSerializer):
         result.pop('password')
         return result
 
-    def validate_password(self, value):
+    @staticmethod
+    def validate_password(value):
         try:
             validate_password(value)
         except ValidationError as exc:
