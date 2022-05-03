@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from rest_project.category.models import Category
+from rest_project.game_category.models import Category
 
 
 @admin.register(Category)

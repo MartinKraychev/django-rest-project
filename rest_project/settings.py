@@ -27,7 +27,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5500',
+    'http://127.0.0.1:5500',
 ]
 
 # Application definition
@@ -48,9 +48,9 @@ THIRD_PARTY_APPS = (
 )
 
 PROJECT_APPS = (
-    'rest_project.furniture',
+    'rest_project.game',
     'rest_project.api_auth',
-    'rest_project.category',
+    'rest_project.game_category',
 )
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + PROJECT_APPS
