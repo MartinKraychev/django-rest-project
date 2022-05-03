@@ -8,7 +8,7 @@ UserModel = get_user_model()
 
 class Game(models.Model):
     title = models.CharField(
-        max_length=20
+        max_length=40
     )
 
     image = models.URLField()
