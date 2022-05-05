@@ -1,3 +1,2 @@
 # Django REST API Project - Game Catalog
-## It is part of 2 way app system and this is the backend for it. You can find the frontend in this folder.
-
+## This is a project of 2 apps working together and this is the backend for it. You can find the frontend module in this folder https://github.com/MartinKraychev/Front-end-module.
