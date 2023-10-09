@@ -24,7 +24,7 @@ class ListGameSerializer(ModelSerializer):
 class CreateGameSerializer(ModelSerializer):
     class Meta:
         model = Game
-        fields = ('title', 'image', 'summary', 'category')
+        fields = ('id', 'title', 'image', 'summary', 'category')
 
     def create(self, validated_data):
         validated_data['user'] = self.context['request'].user
