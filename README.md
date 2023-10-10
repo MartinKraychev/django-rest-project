@@ -1,5 +1,5 @@
 # Django REST API Project - Game Catalog
-A REST services for Game Catalog App. You can find the frontend app here https://github.com/MartinKraychev/games-app-react/tree/main
+A REST services for Game Catalog App. You can find the frontend app here https://github.com/MartinKraychev/games-app-react
 
 ## Technologies used
 * [Django](https://www.djangoproject.com/): The web framework for perfectionists with deadlines (Django builds better web apps with less code).
